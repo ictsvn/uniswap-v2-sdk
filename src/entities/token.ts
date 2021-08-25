@@ -64,8 +64,8 @@ export const WETH = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.NOKODA_TEST]: new Token(
-    ChainId.NOKODA_TEST,
+  [ChainId.NODOKA_TEST]: new Token(
+    ChainId.NODOKA_TEST,
     '0xBD5F741163ee616a922365D3a6509F7562BaB721',
     18,
     'WETH',

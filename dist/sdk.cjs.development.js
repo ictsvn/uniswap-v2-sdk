@@ -22,7 +22,7 @@ var _SOLIDITY_TYPE_MAXIMA;
 (function (ChainId) {
   ChainId[ChainId["MAINNET"] = 56789] = "MAINNET";
   ChainId[ChainId["RINKEBY"] = 4] = "RINKEBY";
-  ChainId[ChainId["NOKODA_TEST"] = 56788] = "NOKODA_TEST";
+  ChainId[ChainId["NODOKA_TEST"] = 56788] = "NODOKA_TEST";
 })(exports.ChainId || (exports.ChainId = {}));
 
 (function (TradeType) {
@@ -370,7 +370,7 @@ function Currency(decimals, symbol, name) {
  * The only instance of the base class `Currency`.
  */
 
-Currency.ETHER = /*#__PURE__*/new Currency(18, 'NETH', 'Nokoda ETH');
+Currency.ETHER = /*#__PURE__*/new Currency(18, 'NETH', 'NODOKA ETH');
 var ETHER = Currency.ETHER;
 
 var _WETH;
@@ -436,7 +436,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0x790A448c9f80585002395864B442b90A9e1162Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.NOKODA_TEST] = /*#__PURE__*/new Token(exports.ChainId.NOKODA_TEST, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.RINKEBY] = /*#__PURE__*/new Token(exports.ChainId.RINKEBY, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH);
+var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0x790A448c9f80585002395864B442b90A9e1162Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.NODOKA_TEST] = /*#__PURE__*/new Token(exports.ChainId.NODOKA_TEST, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.RINKEBY] = /*#__PURE__*/new Token(exports.ChainId.RINKEBY, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
