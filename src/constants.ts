@@ -20,8 +20,12 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x4fB42301Caf527267A8682Af5DD66DC33940A3F5'
+// disabled: Nodoka chain
+// active: Rinkeby
+// export const FACTORY_ADDRESS = '0x4fB42301Caf527267A8682Af5DD66DC33940A3F5'
+// export const INIT_CODE_HASH = '0x70c6c3aa8239fbce9791ff777adb27491a66a35c18fe93bdb8fcbb5419489316'
 
+export const FACTORY_ADDRESS = '0x6aDc83Bb958916515CDa21207aE05EFE66Cee10f'
 export const INIT_CODE_HASH = '0x70c6c3aa8239fbce9791ff777adb27491a66a35c18fe93bdb8fcbb5419489316'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
