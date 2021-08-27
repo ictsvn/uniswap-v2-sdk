@@ -438,7 +438,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x790A448c9f80585002395864B442b90A9e1162Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.NODOKA_TEST] = /*#__PURE__*/new Token(ChainId.NODOKA_TEST, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.RINKEBY] = /*#__PURE__*/new Token(ChainId.RINKEBY, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x790A448c9f80585002395864B442b90A9e1162Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.NODOKA_TEST] = /*#__PURE__*/new Token(ChainId.NODOKA_TEST, '0x2Ff95e75A3f7E39feEEc60108C665530ce59dD21', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.RINKEBY] = /*#__PURE__*/new Token(ChainId.RINKEBY, '0xBD5F741163ee616a922365D3a6509F7562BaB721', 18, 'WETH', 'Wrapped Ether'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
