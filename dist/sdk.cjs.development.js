@@ -34,14 +34,12 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_DOWN"] = 0] = "ROUND_DOWN";
   Rounding[Rounding["ROUND_HALF_UP"] = 1] = "ROUND_HALF_UP";
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
-})(exports.Rounding || (exports.Rounding = {})); // disabled: Nodoka chain
-// active: Rinkeby
-// export const FACTORY_ADDRESS = '0x4fB42301Caf527267A8682Af5DD66DC33940A3F5'
+})(exports.Rounding || (exports.Rounding = {})); // export const FACTORY_ADDRESS = '0x6aDc83Bb958916515CDa21207aE05EFE66Cee10f'
 // export const INIT_CODE_HASH = '0x70c6c3aa8239fbce9791ff777adb27491a66a35c18fe93bdb8fcbb5419489316'
 
 
-var FACTORY_ADDRESS = '0x6aDc83Bb958916515CDa21207aE05EFE66Cee10f';
-var INIT_CODE_HASH = '0x70c6c3aa8239fbce9791ff777adb27491a66a35c18fe93bdb8fcbb5419489316';
+var FACTORY_ADDRESS = '0xA5427f02204bc7e83De585b3a1afFD7f98fd2673';
+var INIT_CODE_HASH = '0x960e30cc556b97cb3044191bb90c4332eb8f018f131e7aba7a1ae67e2949a178';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
