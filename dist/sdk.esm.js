@@ -38,8 +38,8 @@ var Rounding;
 // export const INIT_CODE_HASH = '0x70c6c3aa8239fbce9791ff777adb27491a66a35c18fe93bdb8fcbb5419489316'
 
 
-var FACTORY_ADDRESS = '0xa1473746C222ce3b9682e65C44e2Bd5Fb3872ff0';
-var INIT_CODE_HASH = '0xe431b5eb70205a93dc38b00732b03d06b4d1c48a36f1d07e175c688cc48a3f73';
+var FACTORY_ADDRESS = '0x5D02a970fcca7459Ae81a7006A7cD7373db1f67b';
+var INIT_CODE_HASH = '0xde97a37a54dc3ac1c40680710c35cf6e2b293f47e7fdf0cee22af302a67c8322';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
